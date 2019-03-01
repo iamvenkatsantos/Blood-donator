@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Blood Donator</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="textView2">Blood group</string>
+    <string name="editText">name is here...</string>
+    <string name="button">find a person</string>
+    <string name="textView">NAME</string>
+    <string name="texxtView4">location</string>
+    <string name="button2">Button</string>
+    <string name="textView5">coordinates</string>
+    <string-array name="bloodgrps">
+        <item>BLOOD GROUPS</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="b1">get location</string>
+    <string name="upload_to_site">upload to site</string>
+    <string name="name">Name</string>
+    <string name="location">location</string>
+    <string name="blood_grp">blood grp</string>
+    <string name="phonne_no">phonne no</string>
+    <string name="name1">NAME</string>
+    <string name="blood_grp1">BLOOD GRP</string>
+    <string name="phone_no1">PHONE NO</string>
+    <string name="location1">LOCATION</string>
+    <string name="blood_donater">BLOOD DONATER</string>
+    <string name="search_for_blood">SEARCH FOR BLOOD</string>
+    <string name="back">back</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_name_here">Your Name Here</string>
+    <string name="country">Country</string>
+    <string name="find_a_person">Find a Person</string>
+    <string name="get_location">Get Location</string>
+    <string name="district">District</string>
+    <string name="pincode">Pincode</string>
+
+</resources>

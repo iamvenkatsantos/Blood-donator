@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/g"
+    android:layout_height="match_parent"
+    tools:context="com.maindbpackage.venkat.bdpackage.OTP">
+
+
+       <android.support.design.widget.TextInputLayout
+        android:id="@+id/pno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+           <android.support.design.widget.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Phone No. with Country Code (Eg: +91)"
+               android:inputType="text|number"
+               android:textColor="#ffffff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/ssms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/oval"
+        android:onClick="sendsms"
+        android:text="Send sms" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Verification Code Here"
+            android:inputType="text|number"
+            android:textColor="#ffffff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/verifybut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/oval"
+        android:onClick="verify"
+        android:text="Verify" />
+
+</LinearLayout>

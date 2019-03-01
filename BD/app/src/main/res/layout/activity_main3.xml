@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/g"
+    tools:context="com.maindbpackage.venkat.bdpackage.Main3Activity">
+
+    <EditText
+        android:id="@+id/loc1"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignTop="@+id/textView3"
+        android:autoText="false"
+        android:background="@drawable/ovalplain"
+        android:ems="10"
+        android:hint="   Name Here"
+        android:inputType="textCapSentences|textPersonName"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ovalplain"
+        android:ems="10"
+        android:hint="   Phone No"
+        android:inputType="phone"
+        android:phoneNumber="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/oval"
+        android:onClick="onClick"
+        android:text="@string/upload_to_site"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/spinner2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="29dp"
+        android:password="false"
+        android:phoneNumber="false"
+        android:text="Name"
+
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/spinner2"
+        android:text="Blood Group"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/phno"
+        android:text="Phone No"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/loc_c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/oval"
+        android:text="Get Location"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/phno"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/ovalplain" />
+
+    <EditText
+        android:id="@+id/loc_c"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ovalplain"
+        android:ems="10"
+        android:hint="   Country"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/loc_d"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ovalplain"
+        android:ems="10"
+        android:hint="   District"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ovalplain"
+        android:ems="10"
+        android:hint="   Pincode"
+        android:inputType="number" />
+
+
+</RelativeLayout>
